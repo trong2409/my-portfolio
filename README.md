@@ -1,0 +1,4 @@
+## Technologies
+
+- ReactJS
+- Tailwind CSS
