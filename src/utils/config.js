@@ -12,7 +12,7 @@ import AboutMe from "../sections/AboutMe";
 import MySkills from "../sections/MySkills";
 import MainProjects from "../sections/MainProjects";
 
-import githubProfile from "../assets/mainProjects/github-profile.png";
+import store from "../assets/mainProjects/store.png";
 import passwordGenerator from "../assets/mainProjects/generate-password.png";
 
 export const socialMediaIcons = [
@@ -99,9 +99,9 @@ export const displays = [
 export const miniProject = [
   {
     id: 1,
-    name: "Github Profile",
-    img: githubProfile,
-    link: "https://trong2409.github.io/github-profile/",
+    name: "Simple Store",
+    img: store,
+    link: "https://trong2409.github.io/store/",
   },
   {
     id: 2,

@@ -7,6 +7,8 @@ import { useWasViewed } from "../hooks/useWasViewed";
 import Button from "../components/Button";
 import { useTypewriter } from "use-typewriter-hook";
 
+import cv from "../assets/NguyenVanTrong.pdf";
+
 export default function Introduction(props) {
   const { setRef, wasViewed } = useWasViewed();
   const animation = wasViewed ? "animate-base" : "null";
@@ -52,7 +54,7 @@ export default function Introduction(props) {
                 technologies
               </p>
               <div className="mt-4">
-                <a href="/HoangAnhTuan_Fresher_ReactJS.pdf" download>
+                <a href={cv} download>
                   <Button content="Download Resume" />
                 </a>
               </div>
