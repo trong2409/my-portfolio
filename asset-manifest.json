@@ -1,10 +1,11 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.bae6f385.css",
-    "main.js": "/my-portfolio/static/js/main.0cf06d27.js",
-    "static/media/github-profile.png": "/my-portfolio/static/media/github-profile.7adf7504d76493c7c53e.png",
+    "main.js": "/my-portfolio/static/js/main.7b68eef4.js",
+    "static/media/store.png": "/my-portfolio/static/media/store.676ac2256754edcc3f85.png",
+    "static/media/NguyenVanTrong.pdf": "/my-portfolio/static/media/NguyenVanTrong.58f4cd22c881a582ae90.pdf",
     "static/media/generate-password.png": "/my-portfolio/static/media/generate-password.b703ac3811bb6791f471.png",
-    "static/media/avatar.jpg": "/my-portfolio/static/media/avatar.9dd78f09439a48f38f76.jpg",
+    "static/media/avatar.jpg": "/my-portfolio/static/media/avatar.b9eb723417d549965aa3.jpg",
     "static/media/footer.png": "/my-portfolio/static/media/footer.052a5d1163d9b90e7617.png",
     "static/media/antd.svg": "/my-portfolio/static/media/antd.df47a948e2527cb66971d5dcc8b243d4.svg",
     "static/media/react.svg": "/my-portfolio/static/media/react.e68b35f4774979ae220b1d5d7b345b00.svg",
@@ -14,10 +15,10 @@
     "static/media/html.svg": "/my-portfolio/static/media/html.f318c8b1d5945fa9adc827ae94849cb1.svg",
     "static/media/javascript.svg": "/my-portfolio/static/media/javascript.b879f838faf1cb951d1c2230fd933a39.svg",
     "main.bae6f385.css.map": "/my-portfolio/static/css/main.bae6f385.css.map",
-    "main.0cf06d27.js.map": "/my-portfolio/static/js/main.0cf06d27.js.map"
+    "main.7b68eef4.js.map": "/my-portfolio/static/js/main.7b68eef4.js.map"
   },
   "entrypoints": [
     "static/css/main.bae6f385.css",
-    "static/js/main.0cf06d27.js"
+    "static/js/main.7b68eef4.js"
   ]
 }
