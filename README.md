@@ -1,6 +1,6 @@
 # About this app
 
-This app for showing my information and projects in React
+This app cover my information and projects in React
 
 # Technologies
 
