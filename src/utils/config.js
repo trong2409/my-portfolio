@@ -15,6 +15,7 @@ import MainProjects from "../sections/MainProjects";
 import FoodStore from "../assets/mainProjects/store.png";
 import PasswordGenerator from "../assets/mainProjects/generate-password.png";
 import ShoeStore from "../assets/mainProjects/shoeStore.png";
+import Contact from "../sections/Contact";
 
 export const socialMediaIcons = [
   {
@@ -94,6 +95,11 @@ export const displays = [
     id: "projects",
     name: "Projects",
     component: MainProjects,
+  },
+  {
+    id: "contact",
+    name: "Contact",
+    component: Contact,
   },
 ];
 
