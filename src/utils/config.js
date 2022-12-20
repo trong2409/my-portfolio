@@ -116,16 +116,10 @@ export const miniProject = [
     img: FoodStore,
     link: "https://github.com/trong2409/store",
   },
-  {
-    id: 3,
-    name: "Shoe store",
-    img: ShoeStore,
-    link: "https://github.com/trong2409/TNstore",
-  },
-  {
-    id: 3,
-    name: "Shoe store",
-    img: ShoeStore,
-    link: "https://github.com/trong2409/TNstore",
-  },
+  // {
+  //   id: 3,
+  //   name: "Shoe store",
+  //   img: ShoeStore,
+  //   link: "https://github.com/trong2409/TNstore",
+  // },
 ];
