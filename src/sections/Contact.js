@@ -7,8 +7,8 @@ export default function Contact(props) {
     <div className=" p-auto flex-center" id={props.id || ""}>
       <div className=" box">
         <Heading text="My Contact" />
-        <div className="flex justify-between rounded-md overflow-hidden px-20 py-10 border-solid border-4 border-[#2f3744]">
-          <div className="w-3/5">
+        <div className="flex flex-col xl:flex-row justify-between rounded-md overflow-hidden p-5 xl:px-20 xl:py-10 border-solid border-4 border-[#2f3744]">
+          <div className="w-full xl:w-5/2">
             <div className="mb-5">
               <label
                 for="name"
@@ -88,22 +88,23 @@ export default function Contact(props) {
                 />
               </div>
             </div>
-            <div className="flex justify-center">
+            <div className="flex justify-center w-full">
               <Button content="Message to me" />
             </div>
           </div>
-          <div className="w-1 bg-[#2f3744]"></div>
-          <div className="w-3/10">
-            <div className="mb-5">
-              <label class="block mb-2 text-lg font-lagre text-gray-900 dark:text-white">
+          <div className=" w-full h-1 my-10 bg-[#2f3744] xl:hidden"></div>
+          <div className=" hidden w-1 mx-10 bg-[#2f3744] xl:block"></div>
+          <div className="w-full xl:w-1/2">
+            <div className="mb-5 text-center">
+              <span class="mb-2 text-lg font-lagre text-gray-900 dark:text-white ">
                 My contact
-              </label>
+              </span>
             </div>
-            <div>
+            <div className="flex-center">
               <a href="https://www.facebook.com/trong.trongnguyen249">
                 <button
                   type="button"
-                  class="w-40 text-white bg-[#3b5998] hover:bg-[#3b5998]/90 focus:ring-4 focus:outline-none focus:ring-[#3b5998]/50 font-medium rounded-lg text-lg px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-[#3b5998]/55 mr-2 mb-2"
+                  className="w-40 text-white bg-[#3b5998] hover:bg-[#3b5998]/90 focus:ring-4 focus:outline-none focus:ring-[#3b5998]/50 font-medium rounded-lg text-lg px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-[#3b5998]/55 mr-2 mb-2"
                 >
                   <svg
                     class="mr-2 -ml-1 w-4 h-4"
@@ -124,7 +125,7 @@ export default function Contact(props) {
                 </button>
               </a>
             </div>
-            <div>
+            <div className="flex-center">
               <a href="https://github.com/trong2409">
                 <button
                   type="button"
@@ -149,7 +150,7 @@ export default function Contact(props) {
                 </button>
               </a>
             </div>
-            <div>
+            <div className="flex-center">
               <a href="https://twitter.com/">
                 <button
                   type="button"
@@ -174,25 +175,23 @@ export default function Contact(props) {
                 </button>
               </a>
             </div>
-            <div class="flex">
-              <span class="inline-flex items-center px-3 text-base text-gray-900 bg-gray-200 border border-r-0 border-gray-300 rounded-l-md dark:bg-gray-600 dark:text-gray-400 dark:border-gray-600">
-                <svg
-                  aria-hidden="true"
-                  class="w-5 h-5 text-gray-500 dark:text-gray-400"
-                  fill="currentColor"
-                  viewBox="0 0 20 20"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path>
-                  <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path>
-                </svg>
-              </span>
-              <div
-                type="text"
-                id="website-admin"
-                class="rounded-none rounded-r-lg bg-gray-50 border text-gray-900 focus:ring-blue-500 focus:border-blue-500 block flex-1 min-w-0 w-full text-lg border-gray-300 p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-              >
-                nvtrong2492001@gmail.com
+            <div className="flex-center">
+              <div className="flex">
+                <span class="inline-flex items-center px-3 text-base text-gray-900 bg-gray-200 border border-r-0 border-gray-300 rounded-l-md dark:bg-gray-600 dark:text-gray-400 dark:border-gray-600">
+                  <svg
+                    aria-hidden="true"
+                    class="w-5 h-5 text-gray-500 dark:text-gray-400"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path>
+                    <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path>
+                  </svg>
+                </span>
+                <div class="rounded-none rounded-r-lg bg-gray-50 border text-gray-900 flex-1 text-lg border-gray-300 p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+                  nvtrong2492001@gmail.com
+                </div>
               </div>
             </div>
           </div>
