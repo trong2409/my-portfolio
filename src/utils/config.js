@@ -44,7 +44,8 @@ export const abilities = [
   "Experience with ReactJS, Redux and Router.",
   "Responsive for a better user experience",
   "Have experience in Git",
-  "Be able to read and write English",
+  "Farmiliar with English",
+  "TOEIC certificate: 755 (Reading & Listening)",
   "Friendly with Ant Design, Bootstrap.",
 ];
 
