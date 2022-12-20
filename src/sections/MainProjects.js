@@ -8,7 +8,7 @@ export default function MainProjects(props) {
     <div className=" p-auto flex-center" id={props.id || ""}>
       <div className=" box">
         <Heading text="Mini project" />
-        <div className="flex-center">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           {miniProject.map((project) => {
             return (
               <MiniProjectCard

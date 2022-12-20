@@ -7,7 +7,7 @@ export default function MiniProjectCard({ img, link }) {
   const animation = wasViewed ? "animate-base" : "";
   return (
     <div
-      className={` rounded-md overflow-hidden p-1 bg-[#2f3744] relative group ${animation} w-1/2 mx-5`}
+      className={` rounded-md overflow-hidden p-1 bg-[#2f3744] relative group ${animation} w-full`}
       ref={setRef}
     >
       <img
