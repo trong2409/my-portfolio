@@ -12,8 +12,9 @@ import AboutMe from "../sections/AboutMe";
 import MySkills from "../sections/MySkills";
 import MainProjects from "../sections/MainProjects";
 
-import store from "../assets/mainProjects/store.png";
-import passwordGenerator from "../assets/mainProjects/generate-password.png";
+import FoodStore from "../assets/mainProjects/store.png";
+import PasswordGenerator from "../assets/mainProjects/generate-password.png";
+import ShoeStore from "../assets/mainProjects/shoeStore.png";
 
 export const socialMediaIcons = [
   {
@@ -99,14 +100,20 @@ export const displays = [
 export const miniProject = [
   {
     id: 1,
-    name: "Simple Store",
-    img: store,
-    link: "https://trong2409.github.io/store/",
+    name: "Password Generator",
+    img: PasswordGenerator,
+    link: "https://github.com/trong2409/GeneratePassword",
   },
   {
     id: 2,
-    name: "Password Generator",
-    img: passwordGenerator,
-    link: " https://trong2409.github.io/GeneratePassword/",
+    name: "Food Store",
+    img: FoodStore,
+    link: "https://github.com/trong2409/store",
   },
+  // {
+  //   id: 3,
+  //   name: "Shoe store",
+  //   img: ShoeStore,
+  //   link: "https://github.com/trong2409/TNstore",
+  // },
 ];

@@ -17,7 +17,7 @@ export default function MiniProjectCard({ img, link }) {
       />
       <div className=" flex items-center justify-center absolute top-0 right-0 w-full h-full invisible group-hover:visible">
         <a href={link} target="_blank" rel="noopener noreferrer">
-          <Button content="Live Demo" />
+          <Button content="Project detail" />
         </a>
       </div>
     </div>
