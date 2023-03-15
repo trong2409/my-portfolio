@@ -16,7 +16,7 @@ export default function Introduction(props) {
   const { setRef: refIntro, isInView: introInView } = useWasViewed();
 
   const { textValue: typedText } = useTypewriter({
-    targetText: "I'm a fresher ReactJS Developer",
+    targetText: "I'm a fresher NodeJs Developer",
     autoStartDelay: 1000,
     typingDelayMillis: 50,
     loopDelay: 2000,
@@ -50,7 +50,7 @@ export default function Introduction(props) {
                 {typedText}
               </div>
               <p>
-                I enjoy learning everything about Front-end and Back-end
+                I enjoy learning everything about Javascript
                 technologies
               </p>
               <div className="mt-4">
@@ -63,7 +63,7 @@ export default function Introduction(props) {
           <div className=" rounded-full shadow-avatar flex-center h-[200px] w-[200px] 2xl:w-[300px] 2xl:h-[300px] mb-4 lg:mb-0">
             <img
               src={avatar}
-              alt="Anh Tuan"
+              alt="Nguyen Trong"
               className=" rounded-full w-[90%] h-[90%] transition duration-1000 ease-in-out hover:scale-110"
             />
           </div>
