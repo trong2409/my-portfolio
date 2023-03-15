@@ -1,10 +1,12 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.f368504d.css",
-    "main.js": "/my-portfolio/static/js/main.d1974088.js",
+    "main.js": "/my-portfolio/static/js/main.22e5ce02.js",
     "static/media/shoeStore.png": "/my-portfolio/static/media/shoeStore.596ef77294da5ccc53b6.png",
     "static/media/store.png": "/my-portfolio/static/media/store.676ac2256754edcc3f85.png",
-    "static/media/NguyenVanTrong.pdf": "/my-portfolio/static/media/NguyenVanTrong.7d782e8f7f5af4ddab9f.pdf",
+    "static/media/E-commerce-back-end.png": "/my-portfolio/static/media/E-commerce-back-end.8f7767e4f8a773ec483d.png",
+    "static/media/NguyenVanTrong.pdf": "/my-portfolio/static/media/NguyenVanTrong.fdcbc99c597874f8f5fd.pdf",
+    "static/media/dashboard.png": "/my-portfolio/static/media/dashboard.4cb349861db94bc1ee78.png",
     "static/media/generate-password.png": "/my-portfolio/static/media/generate-password.b703ac3811bb6791f471.png",
     "static/media/avatar.jpg": "/my-portfolio/static/media/avatar.b9eb723417d549965aa3.jpg",
     "static/media/footer.png": "/my-portfolio/static/media/footer.052a5d1163d9b90e7617.png",
@@ -16,10 +18,10 @@
     "static/media/html.svg": "/my-portfolio/static/media/html.f318c8b1d5945fa9adc827ae94849cb1.svg",
     "static/media/javascript.svg": "/my-portfolio/static/media/javascript.b879f838faf1cb951d1c2230fd933a39.svg",
     "main.f368504d.css.map": "/my-portfolio/static/css/main.f368504d.css.map",
-    "main.d1974088.js.map": "/my-portfolio/static/js/main.d1974088.js.map"
+    "main.22e5ce02.js.map": "/my-portfolio/static/js/main.22e5ce02.js.map"
   },
   "entrypoints": [
     "static/css/main.f368504d.css",
-    "static/js/main.d1974088.js"
+    "static/js/main.22e5ce02.js"
   ]
 }
