@@ -16,7 +16,7 @@ export default function Introduction(props) {
   const { setRef: refIntro, isInView: introInView } = useWasViewed();
 
   const { textValue: typedText } = useTypewriter({
-    targetText: "I'm a fresher NodeJs Developer",
+    targetText: "I'm a fresher Javascript Developer",
     autoStartDelay: 1000,
     typingDelayMillis: 50,
     loopDelay: 2000,
@@ -49,10 +49,7 @@ export default function Introduction(props) {
               <div className="text-lg md:text-xl xl:text-2xl min-h-[32px] md:min-h-[48px] xl:min-h-[60px] use-typewriter-hook">
                 {typedText}
               </div>
-              <p>
-                I enjoy learning everything about Javascript
-                technologies
-              </p>
+              <p>I enjoy learning everything about Javascript technologies</p>
               <div className="mt-4">
                 <a href={cv} download>
                   <Button content="Download Resume" />

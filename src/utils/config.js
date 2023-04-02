@@ -18,6 +18,7 @@ import ShoeStore from "../assets/mainProjects/shoeStore.png";
 import Contact from "../sections/Contact";
 import EBackEnd from "../assets/mainProjects/E-commerce-back-end.png";
 import EDashboard from "../assets/mainProjects/dashboard.png";
+import EWebsite from "../assets/mainProjects/E-commerce-website.png";
 
 export const socialMediaIcons = [
   {
@@ -43,7 +44,7 @@ export const facts = [
 
 export const abilities = [
   "Experience in using JavaScript(ES6), HTML5, CSS3, MongoDB",
-  // "Experience with ReactJS, Redux and Router.",
+  "Experience with ReactJS, Redux, Express",
   // "Responsive for a better user experience",
   "Have experience in Git",
   "Farmiliar with English",
@@ -125,16 +126,22 @@ export const miniProject = [
   //   img: ShoeStore,
   //   link: "https://github.com/trong2409/TNstore",
   // },
-  {
-    id: 4,
-    name: "E-commerce Back-end",
-    img: EBackEnd,
-    link: "https://github.com/trong2409/E-Commerce_back_end",
-  },
+  // {
+  //   id: 4,
+  //   name: "E-commerce Back-end",
+  //   img: EBackEnd,
+  //   link: "https://github.com/trong2409/E-Commerce_back_end",
+  // },
   {
     id: 5,
     name: "E-commerce Dashboard",
     img: EDashboard,
     link: "https://github.com/trong2409/E-commerce_front_end_dashboard",
+  },
+  {
+    id: 6,
+    name: "E-commerce Website",
+    img: EWebsite,
+    link: "https://github.com/trong2409/E-commerce_front_end_website",
   },
 ];
